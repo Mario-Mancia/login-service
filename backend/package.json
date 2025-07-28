@@ -1,0 +1,33 @@
+{
+  "name": "login-app-backend",
+  "version": "1.0.0",
+  "description": "A backend service for a practice login app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "build": "tsc",
+    "start": "node dist/bin/www.js",
+    "dev": "ts-node src/bin/www.ts"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Mario-Mancia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.2",
+    "sequelize": "^6.37.7",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3"
+  }
+}
