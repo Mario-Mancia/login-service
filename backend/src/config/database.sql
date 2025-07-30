@@ -1,10 +1,10 @@
 -- A basic database for login-app, specially developed for MySQL;
 
-DROP DATABASE IF EXISTS login-app;
+DROP DATABASE IF EXISTS login_app_db;
 
-CREATE DATABASE login-app;
+CREATE DATABASE login_app_db;
 
-USE login-app;
+USE login_app_db;
 
 CREATE TABLE `users` (
     `id` INT AUTO_INCREMENT,
